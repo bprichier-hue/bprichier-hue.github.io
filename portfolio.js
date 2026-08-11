@@ -1655,7 +1655,12 @@
       var row = document.querySelector('.contact-row');
       if (!row) return;
       row.querySelectorAll('.social-headline-link').forEach(function (el) { if (el.parentNode) el.parentNode.removeChild(el); });
-      posts.filter(function (p) { return valid(p) && !isEmbeddable(p); }).forEach(function (p) {
+      var existingKinds = {};
+      (window.HOPE_DATA && window.HOPE_DATA.identity && Array.isArray(window.HOPE_DATA.identity.links) ? window.HOPE_DATA.identity.links : [])
+        .forEach(function (l) { if (l && l.kind) existingKinds[String(l.kind).toLowerCase()] = true; });
+      posts.filter(function (p) { return valid(p) && !isEmbeddable(p); })
+        .filter(function (p) { return !existingKinds[String(p.platform || 'link').toLowerCase()]; })
+        .forEach(function (p) {
         var k = String(p.platform || 'link').toLowerCase();
         var b = B[k] || B.link;
         var glyph = b.i ? '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">' + b.i + '</svg>'
