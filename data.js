@@ -7,7 +7,7 @@ window.HOPE_DATA = {
 
   meta: {
     name: "Brian Richier",
-    headline: "AI Operations & Program Manager · Turning M365 Copilot & AI Agents into Measurable Business Impact",
+    headline: "AI Operations & Program Manager · Turning Frontier AI Envisioning into Measurable Business Impact",
     og_description: "AI operations leader at Microsoft who turns Copilot pilots into measured, adopted systems — shipped an agent saving sellers 5–10 hours a week and owned operating model design for a $235M+ AI portfolio.",
     summary_short: "I turn scattered AI pilots into systems teams actually use — Copilot Studio agents, adoption metrics, and offers that ship in weeks, not quarters.",
     site_url: "",
