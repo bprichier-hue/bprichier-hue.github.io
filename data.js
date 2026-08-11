@@ -686,5 +686,15 @@ window.HOPE_DATA = {
     }
   ],
 
-  traveler: "rocket"
+  traveler: "rocket",
+
+  social: [
+    {
+      platform: "linkedin",
+      url: "https://www.linkedin.com/pulse/what-enterprise-ai-adoption-actually-looks-like-brian-richier-mba-q3sqc/",
+      title: "What Enterprise AI Adoption Actually Looks Like",
+      caption: "My take on why most enterprise AI pilots stall before they ever reach real, measured adoption — and what it actually takes to close that gap.",
+      pinned: true
+    }
+  ]
 };
