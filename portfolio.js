@@ -215,7 +215,9 @@
         '<span class="material-symbols-rounded ext">open_in_new</span></a>';
     });
 
-    var summaryHtml = id.summary ? '<p class="summary">' + esc(id.summary) + '</p>' : '';
+    var summaryHtml = id.summary ? '<div class="summary">' + String(id.summary).split(/\n\s*\n/).map(function (para) {
+      return '<p>' + esc(para.trim()) + '</p>';
+    }).join('') + '</div>' : '';
 
     var infoHtml =
       '<div class="identity-info">' +

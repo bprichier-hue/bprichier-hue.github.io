@@ -470,6 +470,8 @@ h1.name { margin: 0 0 2px; font-size: 22px; font-weight: 700; letter-spacing: -0
 .contact-row .item svg { width: 13px; height: 13px; flex-shrink: 0; color: var(--text-muted); }
 .contact-row .item .ext { display: none; }
 .summary { margin: 12px 0 0; color: var(--text-secondary); font-size: 13.5px; line-height: 1.65; max-width: 640px; }
+.summary p { margin: 0 0 10px; }
+.summary p:last-child { margin-bottom: 0; }
 
 /* ─── Overview panel (opt-in) — curated hero stats + interests ─────────
    The inner panel of the Overview app (#pane-overview > .summary-band).
