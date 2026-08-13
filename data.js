@@ -7,7 +7,7 @@ window.HOPE_DATA = {
 
   meta: {
     name: "Brian Richier",
-    headline: "AI Operations & Program Manager · Turning Frontier AI Envisioning into Measurable Business Impact",
+    headline: "Strategic Foresight & AI Transformation Leader | Turning Frontier AI Insights into Measurable Business Impact",
     og_description: "I help organizations understand what AI means for their industry today and what it could mean in the future. My work sits at the intersection of AI strategy, transformation, and operations, helping leaders translate emerging technology signals into executable business programs, adoption strategies, and measurable outcomes.",
     summary_short: "I help organizations understand what AI means for their industry today and what it could mean in the future. My work sits at the intersection of AI strategy, transformation, and operations, helping leaders translate emerging technology signals into executable business programs, adoption strategies, and measurable outcomes.",
     site_url: "",
