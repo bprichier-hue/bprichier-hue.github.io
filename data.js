@@ -8,8 +8,8 @@ window.HOPE_DATA = {
   meta: {
     name: "Brian Richier",
     headline: "AI Operations & Program Manager · Turning Frontier AI Envisioning into Measurable Business Impact",
-    og_description: "AI operations leader at Microsoft who turns Copilot pilots into measured, adopted systems — shipped an agent saving sellers 5–10 hours a week and owned operating model design for a $235M+ AI portfolio.",
-    summary_short: "I turn scattered AI pilots into systems teams actually use — Copilot Studio agents, adoption metrics, and offers that ship in weeks, not quarters.",
+    og_description: "I help organizations understand what AI means for their industry today and what it could mean in the future. My work sits at the intersection of AI strategy, transformation, and operations, helping leaders translate emerging technology signals into executable business programs, adoption strategies, and measurable outcomes.",
+    summary_short: "I help organizations understand what AI means for their industry today and what it could mean in the future. My work sits at the intersection of AI strategy, transformation, and operations, helping leaders translate emerging technology signals into executable business programs, adoption strategies, and measurable outcomes.",
     site_url: "",
     share_url: "",
     target_company: null,
