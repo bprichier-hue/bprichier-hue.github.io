@@ -31,7 +31,7 @@ window.HOPE_DATA = {
     links: [
       { kind: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/in/brian-richier", resume: true }
     ],
-    stats: { skills: 22, roles: 5, contributions: 20 }
+    stats: { skills: 22, roles: 5, contributions: 23 }
   },
 
   overview: {
@@ -54,8 +54,8 @@ window.HOPE_DATA = {
       company_initial: "M",
       dates: "Jul 2025 — Present",
       is_current: true,
-      contribution_count: 8,
-      kpis: { ic: 3, lead: 5, metric: 7 },
+      contribution_count: 11,
+      kpis: { ic: 4, lead: 7, metric: 8 },
       groups: [
         {
           kind: "ic",
@@ -100,6 +100,18 @@ window.HOPE_DATA = {
                 { name: "Responsible AI & Governance", category: "domain" }
               ],
               competencies: ["process automation"]
+            },
+            {
+              num: 4,
+              icon: "compare_arrows",
+              domain: "Competitive Positioning",
+              scope: "company-wide",
+              action: "Built competitive positioning against Google Gemini and integrated Anthropic's model capabilities into existing workflow automation strategies.",
+              impact: "Sharper GTM narrative for M365 Copilot in competitive deals.",
+              skills: [
+                { name: "GTM Strategy & Offer Design", category: "domain" }
+              ],
+              competencies: ["competitive strategy", "model integration"]
             }
           ]
         },
@@ -107,7 +119,7 @@ window.HOPE_DATA = {
           kind: "lead",
           contributions: [
             {
-              num: 4,
+              num: 5,
               icon: "account_tree",
               domain: "Operating Model",
               scope: "company-wide",
@@ -121,7 +133,21 @@ window.HOPE_DATA = {
               competencies: ["operating model design"]
             },
             {
-              num: 5,
+              num: 6,
+              icon: "insights",
+              domain: "Frontier Insights Operating Model",
+              scope: "company-wide",
+              metric: { value: "5", direction: "achieved", subject: "strategic AI programs under governance" },
+              action: "Designed repeatable insight-to-action mechanisms (source intake, evidence standards, reusable narrative packs) and directed governance and launch readiness for 5 strategic AI programs, sequencing cross-functional dependencies and field preparation with Product and Engineering counterparts.",
+              impact: "Turned one-time analysis into scalable guidance, eliminating duplicate research across teams and improving execution predictability.",
+              skills: [
+                { name: "Strategic Foresight & POV Development", category: "domain" },
+                { name: "Cross-functional & Global Leadership", category: "interpersonal" }
+              ],
+              competencies: ["insight-to-action", "program governance"]
+            },
+            {
+              num: 7,
               icon: "speed",
               domain: "Execution Framework",
               scope: "company-wide",
@@ -135,21 +161,34 @@ window.HOPE_DATA = {
               competencies: ["execution governance"]
             },
             {
-              num: 6,
+              num: 8,
               icon: "query_stats",
               domain: "Program Management",
               scope: "company-wide",
               metric: { value: "28%", direction: "down", subject: "reduction in deployment variance" },
-              action: "Analyzed pipeline health, adoption signals, and delivery risks, converting findings into leadership decisions, escalation paths, and repeatable execution mechanisms.",
-              impact: "Reduced deployment variance 28% across the AI portfolio.",
+              action: "Reduced deployment variance 28% by analyzing pipeline health, adoption signals, and delivery risks, then converting findings into KPI frameworks, executive reporting mechanisms, escalation paths, and repeatable execution mechanisms for Product, Finance, and business leadership.",
+              impact: "More predictable execution across the AI portfolio, with leadership decision support built directly into the reporting cadence.",
               skills: [
                 { name: "Revenue Operations & Forecasting", category: "analytical" },
                 { name: "Operating Model Design", category: "domain" }
               ],
-              competencies: ["risk analysis"]
+              competencies: ["risk analysis", "executive reporting"]
             },
             {
-              num: 7,
+              num: 9,
+              icon: "sync",
+              domain: "Field Response Loop",
+              scope: "company-wide",
+              action: "Ran closed-loop retrospectives across multiple programs, routing field feedback to the right owners and turning one-time execution into reusable playbooks.",
+              impact: "Converted ad hoc execution into a repeatable feedback-to-action loop across programs.",
+              skills: [
+                { name: "Knowledge Management", category: "domain" },
+                { name: "Cross-functional & Global Leadership", category: "interpersonal" }
+              ],
+              competencies: ["field feedback loops"]
+            },
+            {
+              num: 10,
               icon: "public",
               domain: "Global Enablement",
               scope: "industry",
@@ -163,13 +202,13 @@ window.HOPE_DATA = {
               competencies: ["global governance"]
             },
             {
-              num: 8,
+              num: 11,
               icon: "auto_stories",
               domain: "Knowledge Management",
               scope: "company-wide",
               metric: { value: "390+", direction: "achieved", subject: "playbooks, prompts & automation assets centralized" },
-              action: "Pulled 100+ Copilot and AI-agent use cases from delivery teams worldwide into one library, then built a centralized AI readiness ecosystem of 390+ playbooks, prompts, and automation assets.",
-              impact: "Gave leadership a clear read on adoption, standardized execution across global field teams, and reduced dependency on manual support channels.",
+              action: "Pulled 100+ Copilot and AI-agent use cases from delivery teams worldwide into one library, translating them into executive readouts and investment recommendations for Product and Finance leadership, then built a centralized AI readiness ecosystem of 390+ playbooks, prompts, and automation assets.",
+              impact: "Gave leadership a clear read on adoption trends, scaling opportunities, and portfolio risk, and reduced dependency on manual support channels.",
               skills: [
                 { name: "Knowledge Management", category: "domain" }
               ],
@@ -530,9 +569,10 @@ window.HOPE_DATA = {
         company: "Microsoft",
         dates: "Jul 2025 — Present",
         bullets: [
+          { text: "Directed governance and launch readiness for 5 strategic AI programs, designing repeatable insight-to-action mechanisms for Frontier Insights.", tag: "5 programs" },
           { text: "Owned operating model design for an AI portfolio spanning Product, Engineering, Delivery, Sales, and Finance.", tag: "$235M+ portfolio" },
-          { text: "Designed and launched an AI-enabled ecosystem combining agents, automation, and search capabilities.", tag: "60% less manual effort" },
           { text: "Built an execution framework with readiness criteria, intake governance, and playbooks for AI deployments.", tag: "25% faster, -14 days" },
+          { text: "Ran closed-loop retrospectives across programs, routing field feedback to the right owners.", tag: "field response loop" },
           { text: "Led AI readiness motions across Americas, EMEA, and APAC field organizations.", tag: "600+ enabled" }
         ]
       },
