@@ -12,7 +12,7 @@ window.HOPE_DATA = {
     summary_short: "I run the launches: the end-to-end commercial motion from account selection through field readiness to the adoption readout leadership uses to decide what's next. At Microsoft, I've taken a new AI-agent offer from idea to catalog in under 6 weeks against a 12-week baseline, built the readiness criteria and escalation paths that cut deployment cycles by 25%, and owned the operating model for a $235M+ AI portfolio spanning Product, Engineering, Delivery, Sales, and Finance.",
     site_url: "",
     share_url: "",
-    target_company: "Anthropic",
+    target_company: null,
     generation_date: "2026-08-20",
     confidence: {
       experience:     { pct: 95, band: "high" },
